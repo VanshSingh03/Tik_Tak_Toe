@@ -1,0 +1,6 @@
+# Ignore dependencies and system files
+node_modules/
+sound/
+.DS_Store
+.env
+*.log

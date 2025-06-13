@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark-theme">
+  <h1>Tic Tac Toe</h1>
+  <div class="game-container">
+    <div class="player-info">
+      <span id="playerX">Waiting for Player X...</span>
+      <span id="playerO">Waiting for Player O...</span>
+    </div>
+    <div class="board" id="board">
+      <div class="cell" data-index="0"></div>
+      <div class="cell" data-index="1"></div>
+      <div class="cell" data-index="2"></div>
+      <div class="cell" data-index="3"></div>
+      <div class="cell" data-index="4"></div>
+      <div class="cell" data-index="5"></div>
+      <div class="cell" data-index="6"></div>
+      <div class="cell" data-index="7"></div>
+      <div class="cell" data-index="8"></div>
+    </div>
+    <div class="status" id="status">Waiting for opponent...</div>
+    <button id="rematchBtn" style="display:none;">Rematch</button>
+  </div>
+  <div class="chat-container">
+    <div id="messages"></div>
+    <input id="chatInput" type="text" placeholder="Type a message... 😊" />
+  </div>
+  <audio id="clickSound" src="sound/click.mp3"></audio>
+  <audio id="winSound" src="sound/win.mp3"></audio>
+  <audio id="drawSound" src="sound/draw.mp3"></audio>
+  <audio id="chatSound" src="sound/chat.mp3"></audio>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
