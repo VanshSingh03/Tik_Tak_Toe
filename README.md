@@ -1,67 +1,57 @@
-# 🎮 Tic Tac Toe - Multiplayer Web Game
+# 🎮 Tic Tac Toe Game
 
-A simple, interactive Tic Tac Toe game built with **HTML**, **CSS**, and **JavaScript**. This game allows two players to play alternately on the same screen. It features real-time player switching, winner detection, and game reset functionality — all with a clean UI and fast gameplay.
+A simple, interactive Tic Tac Toe game built using **HTML, CSS, and JavaScript**. Play against a friend in a classic 3x3 grid game. This project demonstrates DOM manipulation, basic game logic, and user interaction.
 
-## 📌 Features
+## 🚀 Live Demo
 
-- ✅ Two-player game (multiplayer on same device)
-- 🎯 Winner and draw detection
-- 🔁 Restart option to play again instantly
-- 🎨 Responsive design with modern styling
-- 🔊 Sound effects (optional)
-- 🌙 Dark mode-friendly layout (if implemented)
+👉 [Play the Game Here](https://vanshsingh03.github.io/Tic-Tac-Toe/)
 
-## 🌐 Live Demo
+## 📁 Repository
 
-▶️ [Play the Game Now](https://vanshsingh03.github.io/Tik_Tak_Toe/)
-
-## 📸 Screenshot
-
-![Tic Tac Toe Game Preview](https://github.com/VanshSingh03/Tik_Tak_Toe/blob/main/screenshot.png)
+🔗 [GitHub Repo](https://github.com/VanshSingh03/Tic-Tac-Toe)
 
 ## 🛠️ Technologies Used
 
-- **HTML5** – Structure of the game layout
-- **CSS3** – Styling and UI responsiveness
-- **JavaScript** – Game logic, user interaction, win-check system
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
 
-## 📁 Project Structure
+## 🎯 Features
 
-Tik_Tak_Toe/
-├── index.html # Main HTML file
-├── style.css # Styling
-├── script.js # Game logic
-├── sound/ # (Optional) Audio effects
-├── README.md # Project documentation
-└── .gitignore # Ignored folders like node_modules
+- Player vs Player mode
+- Interactive UI with hover effects
+- Game win/draw detection
+- Reset/Restart functionality
+- Responsive design (works on mobile & desktop)
 
-## 🚀 How to Run Locally
+## 🧠 How It Works
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/VanshSingh03/Tik_Tak_Toe.git
+1. Two players take turns clicking on the grid.
+2. The game detects a win or a draw and displays a message.
+3. Players can restart the game anytime with a single click.
+
+## 💡 Learning Outcomes
+
+- DOM manipulation using JavaScript
+- Handling user input and game logic
+- Responsive design and styling
+- Structuring small frontend projects
+
+## 📌 How to Run Locally
+
+1. Clone the repo:
+git clone https://github.com/VanshSingh03/Tic-Tac-Toe.git
+
 2. Navigate to the folder:
-   cd Tik_Tak_Toe
-3. Open index.html in your browser
+cd Tic-Tac-Toe
 
-🔮 Future Improvements
+3. Open `index.html` in your browser.
 
-🤖 Add single-player mode with basic AI
+## 🙋‍♂️ Author
 
-🎚️ Add difficulty levels
+**Vansh Singh**  
+💼 [LinkedIn](https://www.linkedin.com/in/vansh-singh-a6a0602a0/)  
+🌐 [Portfolio Website](https://vanshsingh03.github.io/My-Portfolio/)  
 
-📱 Make UI more mobile-optimized
 
-✨ Add animations and sounds for better experience
-
-🏆 Store player scores using LocalStorage
-
-🙌 Contributing
-Pull requests are welcome! If you have suggestions to improve the game, feel free to open an issue or contribute directly.
-
-📜 License
-This project is open source and available under the MIT License.
-
-🧑‍💻 Author
-Vansh Singh
-LinkedIn | GitHub
+⭐ Feel free to star the repo if you like it!
